@@ -1,8 +1,8 @@
 /**
  * Guess The Number Game
- * TODO: Get user value from input and save it to variable numberGuess
- * TODO: Generate a random number 1 to 100 and save it to variable correctNumber
- * TODO: Console whether the guess is too high, too low, or is correct inside playGame function
+ * T̶O̶D̶O̶:̶ G̶e̶t̶ u̶s̶e̶r̶ v̶a̶l̶u̶e̶ f̶r̶o̶m̶ i̶n̶p̶u̶t̶ a̶n̶d̶ s̶a̶v̶e̶ i̶t̶ t̶o̶ v̶a̶r̶i̶a̶b̶l̶e̶ n̶u̶m̶b̶e̶r̶G̶u̶e̶s̶s̶
+ *̶ T̶O̶D̶O̶:̶ G̶e̶n̶e̶r̶a̶t̶e̶ a̶ r̶a̶n̶d̶o̶m̶ n̶u̶m̶b̶e̶r̶ 1̶ t̶o̶ 1̶0̶0̶ a̶n̶d̶ s̶a̶v̶e̶ i̶t̶ t̶o̶ v̶a̶r̶i̶a̶b̶l̶e̶ c̶o̶r̶r̶e̶c̶t̶N̶u̶m̶b̶e̶r̶
+ *̶ T̶O̶D̶O̶:̶ C̶o̶n̶s̶o̶l̶e̶ w̶h̶e̶t̶h̶e̶r̶ t̶h̶e̶ g̶u̶e̶s̶s̶ i̶s̶ t̶o̶o̶ h̶i̶g̶h̶,̶ t̶o̶o̶ l̶o̶w̶,̶ o̶r̶ i̶s̶ c̶o̶r̶r̶e̶c̶t̶ i̶n̶s̶i̶d̶e̶ p̶l̶a̶y̶G̶a̶m̶e̶ f̶u̶n̶c̶t̶i̶o̶n̶
  * TODO: Create a function called displayResult to move the logic for if the guess is too high, too low, or correct
  * TODO: Complete the showYouWon, showNumberAbove, showNumberBelow
  * TODO: Use the showYouWon... functions within displayResult to display the correct dialog
@@ -14,11 +14,13 @@
 // Variable to store the list of guesses 
 
 // Variable for store the correct random number 
-
+let correctNumber;
 
 window.onload = function() {
     document.getElementById("number-submit").addEventListener("click", playGame);
     document.getElementById("restart-game").addEventListener("click", initGame)
+
+    initGame()
 }
 
 /**
@@ -26,14 +28,20 @@ window.onload = function() {
  */
 function playGame(){
   // *CODE GOES BELOW HERE *
+  let numberGuess = document.getElementById("number-guess").value
+  /**
+   * Show the result for if the guess it too high, too low, or correct
+   * HINT: Use if, else if, else statement 
+   */
+  // *CODE GOES BELOW HERE *
+  if(numberGuess > correctNumber) {
+    console.log("You guessed too high!")
+  }else if(numberGuess < correctNumber) {
+    console.log("You guessed too low!")
+  }else {
+    console.log("You guessed correct!")
+  }
 }
-
-/**
- * Show the result for if the guess it too high, too low, or correct
- * HINT: Use if, else if, else statement 
- */
-// *CODE GOES BELOW HERE *
-
 
 
 /**
@@ -42,6 +50,7 @@ function playGame(){
  */
 function initGame(){
   // *CODE GOES BELOW HERE *
+  correctNumber = getRandomNumber()
 }
 
 /**
@@ -57,6 +66,7 @@ function resetResultContent(){
  */
 function getRandomNumber(){
   // *CODE GOES BELOW HERE *
+  return Math.floor(Math.random() * 100) + 1;     // returns a random integer from 0 to 99
 }
 
 /**
