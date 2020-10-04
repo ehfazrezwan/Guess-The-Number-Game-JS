@@ -154,15 +154,15 @@ Project Link: [https://github.com/ehfazrezwan/Guess-The-Number-Game-JS](https://
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ehfazrezwan/repo.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/ehfazrezwan/Guess-The-Number-Game-JS
 [contributors-url]: https://github.com/ehfazrezwan/Guess-The-Number-Game-JS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ehfazrezwan/repo.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/ehfazrezwan/Guess-The-Number-Game-JS
 [forks-url]: https://github.com/ehfazrezwan/Guess-The-Number-Game-JS/network/members
-[stars-shield]: https://img.shields.io/github/stars/ehfazrezwan/repo.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/ehfazrezwan/Guess-The-Number-Game-JS
 [stars-url]: https://github.com/ehfazrezwan/Guess-The-Number-Game-JS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ehfazrezwan/repo.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/ehfazrezwan/Guess-The-Number-Game-JS
 [issues-url]: https://github.com/ehfazrezwan/Guess-The-Number-Game-JS/issues
-[license-shield]: https://img.shields.io/github/license/ehfazrezwan/repo.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/ehfazrezwan/Guess-The-Number-Game-JS
 [license-url]: https://github.com/ehfazrezwan/Guess-The-Number-Game-JS/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ehfazrezwan
